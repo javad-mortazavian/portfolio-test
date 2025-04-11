@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://m3tfluid-lab.github.io/Website-/",
+  "homepage": "https://m3tfluid-lab.github.io/portfolio-test/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
