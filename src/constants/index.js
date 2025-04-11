@@ -1,15 +1,19 @@
 import {
-
-  mathwork,
+  c,
+  python,
+  java,
+  cpp,
   edunet,
-  OpenFOAM,
-  ANSYS,
-  TensorFlow,
-  PyTorch,
-  WRF,
-  demo_img1,
-  demo_img2,
+  weatherpedia,
+  termpw,
+  payloadmaster,
+  mhft,
+  sketcher,
+  mathwork,
+  CompileVortex,
   eduskill,
+  OpenFOAM,
+  Ansys,
 } from "../assets";
 
 export const navLinks = [
@@ -18,12 +22,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "research",
-    title: "research",
-  },
-  {
-    id: "Team",
-    title: "Team",
+    id: "work",
+    title: "Work",
   },
   {
     id: "contact",
@@ -32,16 +32,15 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "Neighbourhood", icon: demo_img1},
-  { title: "High-rise building", icon: demo_img2},
+  { title: "C", icon: c },
+  { title: "C++", icon: cpp },
+  { title: "Python", icon: python },
+  { title: "Java", icon: java },
 ];
 
 export const technologies = [
   { name: "OpenFOAM", icon: OpenFOAM },
-  { name: "ANSYS", icon: ANSYS},
-  { name: "WRF", icon: WRF },
-  { name: "TensorFlow", icon: TensorFlow },
-  { name: "PyTorch", icon: PyTorch },
+  { name: "Ansys", icon: Ansys },
 ];
 
 export const experiences = [

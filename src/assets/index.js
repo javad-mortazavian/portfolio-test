@@ -4,32 +4,47 @@ import edunet from "./company/edunet.png";
 import eduskill from "./company/eduskill.png";
 
 // Import tech stack images
-import demo_img1 from "./images-research/demo_img1.jpg";
-import demo_img2 from "./images-research/demo_img2.jpg";
+import python from "./tech-stack/python.png";
+import c from "./tech-stack/c.png";
+import cpp from "./tech-stack/cpp.png";
+import java from "./tech-stack/java.png";
 
 // Import project images
-
-
+import weatherpedia from "./projects/WeatherPedia.png";
+import termpw from "./projects/termpw.png";
+import payloadmaster from "./projects/payloadmaster.png";
+import mhft from "./projects/mhft.png";
+import sketcher from "./projects/sketcher.png";
+import CompileVortex from "./projects/CompileVortex.png";
 
 // Import tech logos
 import OpenFOAM from "./tech/OpenFOAM.png";
-import ANSYS from "./tech/ANSYS.png";
-import TensorFlow from "./tech/TensorFlow.png";
-import PyTorch from "./tech/PyTorch.png";
-import WRF from "./tech/WRF.png";
+import Ansys from "./tech/Ansys.png";
 
 // Import common assets
-
+import logo from "./logo.svg";
+import github from "./github.png";
+import menu from "./menu.svg";
+import close from "./close.svg";
 
 export {
   mathwork,
   edunet,
+  python,
+  c,
+  cpp,
+  java,
+  github,
   OpenFOAM,
-  ANSYS,
-  TensorFlow,
-  PyTorch,
-  WRF,
-  demo_img1,
-  demo_img2,
+  Ansys,
+  weatherpedia,
+  termpw,
+  payloadmaster,
+  mhft,
+  sketcher,
+  CompileVortex,
+  logo,
+  menu,
+  close,
   eduskill,
 };
