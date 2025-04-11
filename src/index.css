@@ -1,13 +1,9 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-=======
->>>>>>> 40de23ac0b49f1ecbb54e2e3be7923326bd6da61
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -146,26 +142,3 @@
 .confirmation {
   color: #00ff00;
 }
-=======
-.carousel-item img,
-.carousel-item video {
-  width: 100%;
-  /* Ensures the image/video spans the container */
-  height: auto;
-  /* Maintains aspect ratio */
-  object-fit: cover;
-  /* Ensures content fills the container while cropping excess */
-  aspect-ratio: 16/9;
-  /* Enforces uniform aspect ratio */
-}
-
-.carousel-item {
-  flex-shrink: 0;
-  width: 525px;
-  /* Sets consistent width */
-  height: 344px;
-  /* Sets consistent height */
-  overflow: hidden;
-  /* Prevents content overflow */
-}
->>>>>>> 40de23ac0b49f1ecbb54e2e3be7923326bd6da61
