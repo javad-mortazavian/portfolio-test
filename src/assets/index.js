@@ -4,8 +4,8 @@ import edunet from "./company/edunet.png";
 import eduskill from "./company/eduskill.png";
 
 // Import tech stack images
-import img1 from "./tech-stack/img1.png";
-import img2 from "./tech-stack/img2.png";
+import img1 from "./tech-stack/img1.jpg";
+import img2 from "./tech-stack/img2.jpg";
 import img3 from "./tech-stack/img3.png";
 
 
