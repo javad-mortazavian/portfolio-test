@@ -63,15 +63,6 @@ const ComputersCanvas = () => {
       }}
     >
       <ComputerModel isMobile={isMobile} />
-      <div
-        style={{
-          width: "300px",
-          height: "300px",
-          backgroundColor: "red",
-        }}
-      >
-        Test Div
-      </div>
     </div>
   );
 };
