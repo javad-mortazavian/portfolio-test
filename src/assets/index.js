@@ -20,6 +20,9 @@ import CompileVortex from "./projects/CompileVortex.png";
 // Import tech logos
 import OpenFOAM from "./tech/OpenFOAM.png";
 import Ansys from "./tech/Ansys.png";
+import WRF from "./tech/WRF.png";
+import TF from "./tech/TF.png";
+import PyTorch from "./tech/PyTorch.png";
 
 // Import common assets
 import logo from "./logo.svg";
@@ -37,6 +40,9 @@ export {
   github,
   OpenFOAM,
   Ansys,
+  WRF,
+  TF,
+  PyTorch,
   weatherpedia,
   termpw,
   payloadmaster,

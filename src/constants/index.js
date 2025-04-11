@@ -14,6 +14,9 @@ import {
   eduskill,
   OpenFOAM,
   Ansys,
+  WRF,
+  TF,
+  PyTorch,
 } from "../assets";
 
 export const navLinks = [
@@ -41,6 +44,9 @@ export const services = [
 export const technologies = [
   { name: "OpenFOAM", icon: OpenFOAM },
   { name: "Ansys", icon: Ansys },
+  { name: "WRF", icon: WRF },
+  { name: "PyTorch", icon: PyTorch },
+  { name: "TF", icon: TF },
 ];
 
 export const experiences = [
