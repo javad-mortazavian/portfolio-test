@@ -61,7 +61,7 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src={logo} alt="logo" className="w-20 h-16 object-contain" />
+            <img src={logo} alt="logo" className="w-26 h-20 object-contain" />
             <p className="text-white text-[20px] font-bold cursor-pointer flex">
               M3TFluiD&nbsp;
               <span className="sm:block hidden">Lab</span>
