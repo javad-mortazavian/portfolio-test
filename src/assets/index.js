@@ -12,11 +12,11 @@ import demo_img2 from "./images-research/demo_img2.jpg";
 
 
 // Import tech logos
-import OpenFOAM from "./projects/OpenFOAM.png";
-import ANSYS from "./projects/ANSYS.png";
-import TensorFlow from "./projects/TensorFlow.png";
-import PyTorch from "./projects/PyTorch.png";
-import WRF from "./projects/WRF.png";
+import OpenFOAM from "./tech/OpenFOAM.png";
+import ANSYS from "./tech/ANSYS.png";
+import TensorFlow from "./tech/TensorFlow.png";
+import PyTorch from "./tech/PyTorch.png";
+import WRF from "./tech/WRF.png";
 
 // Import common assets
 import logo from "./logo.svg";
