@@ -13,6 +13,7 @@ import Teaching from './pages/Teaching'
 import Team from './pages/Team'
 import Services from './pages/Services'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
