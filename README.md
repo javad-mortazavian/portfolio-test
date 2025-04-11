@@ -7,7 +7,7 @@
   <a href="#demo">Demo</a> •
   <a href="#screenshots">Screenshots</a> •
   <a href="#installation">Installation</a> •
-  <a href="#tech-stack">Tech Stack</a>
+  <a href="#images-research">Resaerch Figures</a>
 </p>
 
 [![GitHub license](https://img.shields.io/github/license/lohitkolluri/Portfolio?style=flat-square)](LICENSE)

@@ -28,8 +28,12 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "research",
+    title: "research",
+  },
+  {
+    id: "Team",
+    title: "Team",
   },
   {
     id: "contact",
@@ -38,21 +42,16 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
-  { title: "Python", icon: python },
-  { title: "Java", icon: java },
+  { title: "Neighbourhood", icon: demo_img1},
+  { title: "High-rise building", icon: demo_img2},
 ];
 
 export const technologies = [
-  { name: "HTML 5", icon: html },
-  { name: "CSS 3", icon: css },
-  { name: "JavaScript", icon: javascript },
-  { name: "Rect JS", icon: reactjs },
-  { name: "Tailwind CSS", icon: tailwind },
-  { name: "Node JS", icon: nodejs },
-  { name: "Three JS", icon: threejs },
-  { name: "git", icon: git },
+  { name: "OpenFOAM", icon: OpenFOAM },
+  { name: "ANSYS", icon: ANSYS},
+  { name: "WRF", icon: WRF },
+  { name: "TensorFlow", icon: TensorFlow },
+  { name: "PyTorch", icon: PyTorch },
 ];
 
 export const experiences = [

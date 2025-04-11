@@ -4,18 +4,16 @@ import edunet from "./company/edunet.png";
 import eduskill from "./company/eduskill.png";
 
 // Import tech stack images
-import python from "./tech-stack/python.png";
-import c from "./tech-stack/c.png";
-import cpp from "./tech-stack/cpp.png";
-import java from "./tech-stack/java.png";
+import demo_img1 from "./images-research/demo_img1.jpg";
+import demo_img2 from "./images-research/demo_img2.jpg";
 
 // Import project images
-import weatherpedia from "./projects/WeatherPedia.png";
-import termpw from "./projects/termpw.png";
-import payloadmaster from "./projects/payloadmaster.png";
-import mhft from "./projects/mhft.png";
-import sketcher from "./projects/sketcher.png";
-import CompileVortex from "./projects/CompileVortex.png";
+import OpenFOAM from "./projects/OpenFOAM.png";
+import ANSYS from "./projects/ANSYS.png";
+import TensorFlow from "./projects/TensorFlow.png";
+import PyTorch from "./projects/PyTorch.png";
+import WRF from "./projects/WRF.png";
+
 
 // Import tech logos
 import css from "./tech/css.png";
