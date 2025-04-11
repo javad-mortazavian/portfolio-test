@@ -1,13 +1,13 @@
 {
-  "name": "Portfolio-Website",
-  "homepage": "https://javad-mortazavian.github.io/portfolio-test/",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://m3tfluid-lab.github.io/Website-/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -24,8 +24,10 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.13.0",
+    "react-slick": "^0.30.3",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
+    "slick-carousel": "^1.8.1",
     "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
