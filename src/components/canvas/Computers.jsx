@@ -1,4 +1,5 @@
 import React, { Suspense, useEffect, useState } from "react";
+import videoSrc from "../../assets/vid1.mp4";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { DRACOLoader } from "three/addons/loaders/DRACOLoader";
@@ -17,14 +18,14 @@ const ComputerModel = ({ isMobile }) => {
       }}
     >
       <video
-        src={require("../../assets/vid1.mp4")} // Path to your video
+        src={videoSrc}
         autoPlay
         loop
         muted
         style={{
-          width: isMobile ? "300px" : "600px", // Adjust size for mobile and desktop
+          width: isMobile ? "300px" : "600px",
           height: "auto",
-          borderRadius: "10px", // Optional: Add rounded corners
+          borderRadius: "10px",
         }}
       />
     </div>
@@ -57,11 +58,20 @@ const ComputersCanvas = () => {
         justifyContent: "center",
         alignItems: "center",
         width: "100%",
-        height: "100%",
+        height: "100vh", // Use full viewport height
         backgroundColor: "black", // Optional: Add a background color
       }}
     >
       <ComputerModel isMobile={isMobile} />
+      <div
+        style={{
+          width: "300px",
+          height: "300px",
+          backgroundColor: "red",
+        }}
+      >
+        Test Div
+      </div>
     </div>
   );
 };
