@@ -19,10 +19,7 @@ import PyTorch from "./tech/PyTorch.png";
 import WRF from "./tech/WRF.png";
 
 // Import common assets
-import logo from "./logo.svg";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+
 
 export {
   mathwork,
@@ -34,9 +31,5 @@ export {
   WRF,
   demo_img1,
   demo_img2,
-  github,
-  logo,
-  menu,
-  close,
   eduskill,
 };
