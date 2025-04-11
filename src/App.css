@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -32,12 +33,15 @@
   }
 }
 
+=======
+>>>>>>> 40de23ac0b49f1ecbb54e2e3be7923326bd6da61
 .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
+<<<<<<< HEAD
 }
 
 .resume-button {
@@ -45,3 +49,6 @@
   border-radius: 4px;
   padding: 6px 12px;
 }
+=======
+}
+>>>>>>> 40de23ac0b49f1ecbb54e2e3be7923326bd6da61

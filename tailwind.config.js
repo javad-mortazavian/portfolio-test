@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 module.exports = {
   content: ['./src/**/*.{js,jsx}'],
   mode: 'jit',
@@ -24,3 +25,24 @@ module.exports = {
   },
   plugins: [],
 };
+=======
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html", // Ensure your HTML file is included
+    "./src/**/*.{js,jsx,ts,tsx}", // Include all JS and JSX files in the src directory
+  ],
+  darkMode: 'class', // Enable dark mode using the 'class' strategy
+  theme: {
+    extend: {
+      fontWeight: {
+        'extra-light': 200,
+        'medium': 500,
+      },
+    },
+  },
+  plugins: [
+    require('flowbite/plugin'), // Include the Flowbite plugin
+  ],
+}
+>>>>>>> 40de23ac0b49f1ecbb54e2e3be7923326bd6da61
