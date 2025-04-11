@@ -1,42 +1,4 @@
-import React, { Suspense, useEffect, useState } from "react";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-import { DRACOLoader } from "three/addons/loaders/DRACOLoader";
-import CanvasLoader from "../Loader";
-
-const ComputerModel = ({ isMobile }) => {
-  const { scene } = useGLTF(
-    "./desktop_pc/scene.gltf",
-    undefined,
-    (loader) => {
-      const dracoLoader = new DRACOLoader();
-      loader.setDRACOLoader(dracoLoader);
-    }
-  );
-
-  return (
-    <mesh>
-      <hemisphereLight intensity={0.15} groundColor="black" />
-      <spotLight
-        position={[-20, 50, 10]}
-        angle={0.12}
-        penumbra={1}
-        intensity={1}
-        castShadow
-        shadow-mapSize={1024}
-      />
-      <pointLight intensity={1} />
-      <primitive
-        object={scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
-      />
-    </mesh>
-  );
-};
-
-const MemoizedComputerModel = React.memo(ComputerModel);
+import React, { useEffect, useState } from "react";
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -56,23 +18,28 @@ const ComputersCanvas = () => {
   }, []);
 
   return (
-    <Canvas
-      frameloop="demand"
-      shadows
-      dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        width: "100%",
+        height: "100%",
+        backgroundColor: "black", // Optional: Add a background color
+      }}
     >
-      <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls
-          enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
-        />
-        <MemoizedComputerModel isMobile={isMobile} />
-      </Suspense>
-      <Preload all />
-    </Canvas>
+      <video
+        src={require("../../assets/vid1.mp4")} // Path to your video
+        autoPlay
+        loop
+        muted
+        style={{
+          width: isMobile ? "300px" : "600px", // Adjust size for mobile and desktop
+          height: "auto",
+          borderRadius: "10px", // Optional: Add rounded corners
+        }}
+      />
+    </div>
   );
 };
 
