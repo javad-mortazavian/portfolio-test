@@ -15,7 +15,7 @@ import MFSM from "./projects/MFSM.png";
 // Import team images
 import Maede from "./Team/Maede.jpeg";
 import Javad from "./Team/Javad.jpg";
-import Navid from "./Team/Navid.jpg";
+import Navid from "./Team/Navid.png";
 import Shivesh from "./Team/Shivesh.jpg";
 
 
