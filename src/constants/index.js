@@ -6,10 +6,6 @@ import {
   mathwork,
   eduskill,
   OpenFOAM,
-  Maede,
-  Javad,
-  Navid,
-  Shivesh,
   Ansys,
   WRF,
   TF,
@@ -43,53 +39,6 @@ export const technologies = [
   { name: "WRF", icon: WRF },
   { name: "PyTorch", icon: PyTorch },
   { name: "TF", icon: TF },
-];
-
-export const members = [
-  {
-    name: "Maede",
-    description:
-      "A Multi-Fidelity Surrogate Model for the prediction of wind loads on high-rise buildings using OpenFOAM and PyTorch.",
-    tags: [
-      { name: "OpenFOAM", color: "blue-text-gradient" },
-      { name: "PyTorch", color: "green-text-gradient" },
-    ],
-    image: Maede,
-   // source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
-  },
-  {
-    name: "Shivesh",
-    description:
-      "Bio",
-    tags: [
-      { name: "OpenFOAM", color: "blue-text-gradient" },
-      { name: "PyTorch", color: "green-text-gradient" },
-    ],
-    image: Shivesh,
-   // source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
-  },
-  {
-    name: "Javad",
-    description:
-      "Bio",
-    tags: [
-      { name: "OpenFOAM", color: "blue-text-gradient" },
-      { name: "PyTorch", color: "green-text-gradient" },
-    ],
-    image: Javad,
-   // source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
-  },
-  {
-    name: "Navid",
-    description:
-      "Bio",
-    tags: [
-      { name: "OpenFOAM", color: "blue-text-gradient" },
-      { name: "PyTorch", color: "green-text-gradient" },
-    ],
-    image: Navid,
-   // source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
-  },
 ];
 
 export const projects = [
