@@ -9,7 +9,7 @@ import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
 import Tech from "./Tech";
-import Works from "./Works";
+import Research from "./Research";
 import Contact from "./Contact";
 
 export {
@@ -17,7 +17,7 @@ export {
   Navbar,
   About,
   Tech,
-  Works,
+  Research,
   Contact,
   EarthCanvas,
   BallCanvas,

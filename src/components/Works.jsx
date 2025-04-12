@@ -50,7 +50,7 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
   );
 };
 
-const Works = () => {
+const Research = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -73,4 +73,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Research, "");
