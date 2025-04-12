@@ -10,6 +10,7 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Tech from "./Tech";
 import Works from "./Works";
+import Team from "./Team";
 import Contact from "./Contact";
 
 export {
@@ -17,6 +18,7 @@ export {
   Navbar,
   About,
   Tech,
+  Team,
   Works,
   Contact,
   EarthCanvas,
