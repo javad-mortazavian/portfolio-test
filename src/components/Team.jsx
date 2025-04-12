@@ -22,7 +22,7 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
         <div className="relative w-full h-[230px]">
           <img
             src={image}
-            alt="project_image"
+            alt="member_image"
             className="w-full h-full object-cover rounded-2xl"
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -65,8 +65,8 @@ const Team = () => {
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
-        {members.map((project, index) => (
-          <ProjectCard key={`project-${index}`} {...project} />
+        {members.map((member, index) => (
+          <ProjectCard key={`member-${index}`} {...member} />
         ))}
       </div>
     </>
