@@ -12,6 +12,13 @@ import img3 from "./tech-stack/img3.png";
 import MFSM from "./projects/MFSM.png";
 
 
+// Import team images
+import Maede from "./Team/Maede.jpeg";
+import Javad from "./Team/Javad.jpg";
+import Navid from "./Team/Navid.jpg";
+import Shivesh from "./Team/Shivesh.jpg";
+
+
 // Import tech logos
 import OpenFOAM from "./tech/OpenFOAM.png";
 import Ansys from "./tech/Ansys.png";
@@ -26,6 +33,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 export {
+  Maede,
+  Javad,
+  Navid,
+  Shivesh,
   mathwork,
   edunet,
   img1,
