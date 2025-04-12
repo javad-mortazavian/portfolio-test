@@ -8,7 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { members } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
+const MemberCard = ({ name, description, tags, image, source_code_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring")}>
       <Tilt
@@ -66,7 +66,7 @@ const Team = () => {
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
         {members.map((member, index) => (
-          <ProjectCard key={`member-${index}`} {...member} />
+          <MemberCard key={`member-${index}`} {...member} />
         ))}
       </div>
     </>

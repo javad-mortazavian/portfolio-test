@@ -2,6 +2,7 @@ import {
   img1,
   img3,
   MFSM,
+  Javad,
   edunet,
   mathwork,
   eduskill,
@@ -16,6 +17,10 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "team",
+    title: "Team",
   },
   {
     id: "research",
@@ -39,6 +44,20 @@ export const technologies = [
   { name: "WRF", icon: WRF },
   { name: "PyTorch", icon: PyTorch },
   { name: "TF", icon: TF },
+];
+
+export const members = [
+  {
+    name: "Javad",
+    description:
+      "A Multi-Fidelity Surrogate Model for the prediction of wind loads on high-rise buildings using OpenFOAM and PyTorch.",
+    tags: [
+      { name: "OpenFOAM", color: "blue-text-gradient" },
+      { name: "PyTorch", color: "green-text-gradient" },
+    ],
+    image: Javad,
+   // source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+  },
 ];
 
 export const projects = [
